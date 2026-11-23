@@ -15,7 +15,7 @@ RUN python3 -m pip install --no-cache-dir --break-system-packages -r backend/req
 
 # Install Node.js dependencies and build the Vite frontend
 COPY package.json ./
-RUN npm install --no-audit --no-fund
+RUN npm install --legacy-peer-deps --no-audit --no-fund
 
 # Copy project source and build production assets
 COPY . .
