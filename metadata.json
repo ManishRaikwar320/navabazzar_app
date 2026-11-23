@@ -1,0 +1,6 @@
+{
+  "name": "NavaBazaar",
+  "description": "Curated multi-category online marketplace with search, filtering, user accounts, demo payment checkout, and live order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

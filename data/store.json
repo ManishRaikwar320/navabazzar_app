@@ -1,0 +1,87 @@
+{
+  "users": [],
+  "orders": [
+    {
+      "id": "ord-demo-2026",
+      "trackingNumber": "NB-DEMO-2026",
+      "userId": "demo-showcase-owner",
+      "customerName": "Aarav Mehta",
+      "shippingAddress": {
+        "id": "addr-demo",
+        "label": "Home",
+        "fullName": "Aarav Mehta",
+        "phone": "9820012345",
+        "street": "14th Main, Indiranagar",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "pinCode": "560038"
+      },
+      "items": [
+        {
+          "productId": "prod-anc-headphones",
+          "name": "Auralis ANC Studio Wireless Headphones",
+          "brand": "Auralis",
+          "image": "/src/assets/images/prod_anc_headphones_1795429367667.jpg",
+          "variant": "Matte Obsidian",
+          "quantity": 1,
+          "unitPrice": 14999
+        }
+      ],
+      "subtotal": 14999,
+      "discount": 1500,
+      "shippingFee": 0,
+      "total": 13499,
+      "promoCode": "NAVA10",
+      "paymentMethod": "upi",
+      "paymentSummary": "Demo UPI (aarav@okicici)",
+      "paymentStatus": "Demo Paid",
+      "orderStatus": "In Transit",
+      "courierName": "BlueDart Express Surface",
+      "estimatedDelivery": "24 Nov 2026",
+      "timeline": [
+        {
+          "stage": "Order Confirmed",
+          "title": "Order Confirmed",
+          "description": "Payment verified and order invoice generated.",
+          "location": "NavaBazaar Order Desk",
+          "timestamp": "2026-11-21T22:27:49.911Z",
+          "completed": true
+        },
+        {
+          "stage": "Packed at Hub",
+          "title": "Packed at Fulfillment Hub",
+          "description": "Items quality-checked, sealed, and assigned airway bill.",
+          "location": "Bhiwandi Fulfillment Center, MH",
+          "timestamp": "2026-11-22T10:27:49.911Z",
+          "completed": true
+        },
+        {
+          "stage": "In Transit",
+          "title": "In Transit to Destination City",
+          "description": "Shipment arrived at Bengaluru sorting facility.",
+          "location": "Bengaluru Nelamangala Hub, KA",
+          "timestamp": "2026-11-23T02:27:49.911Z",
+          "completed": true
+        },
+        {
+          "stage": "Out for Delivery",
+          "title": "Out for Delivery",
+          "description": "Courier partner will be assigned for doorstep delivery.",
+          "location": "Bengaluru Indiranagar Dispatch",
+          "timestamp": null,
+          "completed": false
+        },
+        {
+          "stage": "Delivered",
+          "title": "Delivered",
+          "description": "Package delivered and signed at destination address.",
+          "location": "Bengaluru",
+          "timestamp": null,
+          "completed": false
+        }
+      ],
+      "createdAt": "2026-11-21T22:27:49.911Z",
+      "updatedAt": "2026-11-23T02:27:49.911Z"
+    }
+  ]
+}
